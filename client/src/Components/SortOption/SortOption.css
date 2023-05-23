@@ -1,0 +1,17 @@
+.sort-option-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sort-option-label {
+  margin-right: 10px;
+}
+
+.sort-option-select {
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  background-color: rgb(251, 239, 201);
+}

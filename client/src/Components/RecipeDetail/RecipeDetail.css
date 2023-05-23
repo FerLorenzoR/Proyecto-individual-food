@@ -1,0 +1,79 @@
+.recipe-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  margin-bottom: 10rem;
+}
+.title-detail {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--dark-yellow);
+  text-shadow: 2px 2px 2px #0a0a0a;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+.img-detail {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  box-shadow: 0.1em 0.1em;
+  margin-bottom: 2rem;
+}
+.detail-healthscore {
+  margin-right: 37rem;
+  border: 3px solid rgba(215, 201, 123, 0.855);
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em;
+  text-decoration: none;
+  padding: 10px;
+  overflow: hidden;
+}
+.recipe-summary {
+  margin: 20px 0 20px 0;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.detail-steps p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.detail-steps ol {
+  list-style-position: inside;
+  margin-left: 2rem;
+
+  padding-left: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+  font-size: 20px;
+}
+.detail-diet {
+  margin-top: 20px;
+  margin-right: 30rem;
+  border: 3px solid rgba(215, 201, 123, 0.855);
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em;
+  text-decoration: none;
+  padding: 10px;
+  overflow: hidden;
+}
+.detail-diet strong {
+  margin-right: 10px;
+}
+
+.loader {
+  background-image: url("../../assets/loading-gif.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}

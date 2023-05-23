@@ -1,0 +1,25 @@
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/404-notfound.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.not-found h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(224, 205, 148);
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30rem;
+}

@@ -1,0 +1,152 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border: 2px dashed #daa06d;
+  border-radius: 15px;
+  background-color: #eaddca;
+  box-shadow: 0 0 0 4px #eaddca, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.4s ease-in-out;
+  padding: 2rem;
+  margin: 150px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+::placeholder {
+  color: #daa06d;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+}
+
+.form .heading {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--dark-yellow);
+  text-shadow: 2px 2px 2px #0a0a0a;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.form-group input {
+  outline: none;
+  padding: 0.5em;
+  border: 1px solid #daa06d;
+  color: #daa06d;
+  width: 30em;
+  height: 3em;
+  border-radius: 10px;
+  background-color: #eaddca;
+  text-align: center;
+}
+.form-group textarea {
+  outline: none;
+  padding: 0.5em;
+  border: 1px solid #daa06d;
+  color: #daa06d;
+  width: 30em;
+  height: 10em;
+  border-radius: 10px;
+  background-color: #eaddca;
+  text-align: center;
+  resize: none;
+}
+
+.form-group select {
+  /* Estilos para el elemento select */
+  padding: 0.5em;
+  border: 1px solid #daa06d;
+  color: #daa06d;
+  width: 30em;
+  height: 14em;
+  border-radius: 10px;
+  background-color: #eaddca;
+  text-align: center;
+  overflow: hidden;
+}
+
+.form-group select option {
+  /* Estilos para las opciones del select */
+  color: #daa06d;
+  background-color: #eaddca;
+  font-family: "Playfair Display", serif;
+}
+.form-group label {
+  margin: 10px;
+}
+
+.form .add-step-btn {
+  align-self: center;
+  margin-top: 2em;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #e5aa70;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  transition: 0.4s ease-in-out opacity, 0.1s ease-in-out active;
+  padding: 1em;
+}
+.form .remove-step-btn {
+  margin-top: 2em;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #e5aa70;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 0.9em;
+  margin-left: 1em;
+}
+
+.form .form-button:hover {
+  opacity: 0.8;
+}
+
+.form .form-button:active {
+  transform: translateX(0.1em) translateY(0.1em);
+  box-shadow: none;
+}
+
+.form .form-button {
+  align-self: center;
+  margin-top: 2em;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #e5aa70;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  transition: 0.4s ease-in-out opacity, 0.1s ease-in-out active;
+  padding: 2em 3em 2em 4em;
+  box-shadow: 0.6px 0.6px 0.6px 0.6px rgba(0, 0, 0, 0.5);
+}
+.success-message {
+  position: absolute;
+  margin-top: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--dark-yellow);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0.6px 0.6px 0.6px 0.6px rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+}
+.error-message {
+  box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 0.5);
+}
+.error-input {
+  box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 0.5);
+}
